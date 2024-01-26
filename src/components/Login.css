@@ -1,0 +1,73 @@
+.formContainer {
+  background-color: rgb(23, 23, 96);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  background-color: rgb(23, 133, 230);
+  -webkit-box-shadow: 9px 10px 14px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 9px 10px 14px -9px rgba(0, 0, 0, 0.75);
+  height: 600px;
+  width: 400px;
+  margin-top: 25px;
+  border-radius: 10px;
+  padding: 15px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.formname {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.labelname {
+  font-size: 18px;
+  font-weight: bold;
+}
+.formname input {
+  height: 40px;
+  width: 250px;
+  border-radius: 15px;
+  outline: none;
+  font-size: 18px;
+}
+
+.login {
+  background-color: rgb(1, 35, 24);
+  color: white;
+  font-size: 18px;
+  padding: 10px 15px;
+  height: 50px;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 150px;
+  margin-top: 25px;
+}
+
+.login:hover {
+  background-color: rgba(3, 88, 61, 0.626);
+}
+
+.password {
+  position: relative;
+}
+.visible {
+  position: absolute;
+  top: 40px;
+  right: 5px;
+}
+
+.registertext {
+  margin-top: 20px;
+  color: rgb(71, 61, 61);
+}
+
+.link {
+  font-size: 18px;
+}
